@@ -21,9 +21,7 @@ const Header = () => {
                 <div>
                     <Link className="btn btn-ghost normal-case text-xl" to='/' >Context Master</Link>
                     <Link className="btn btn-ghost normal-case text-xl" to="/" >Home</Link>
-                    {
-                        user&& <Link className="btn btn-ghost normal-case text-xl" to="/dashboard" >dashboard</Link>
-                    }
+                    <Link className="btn btn-ghost normal-case text-xl" to="/dashboard" >dashboard</Link>
                     <Link className="btn btn-ghost normal-case text-xl" to="/login" >login</Link>
                     <Link className="btn btn-ghost normal-case text-xl" to="/register" >Register</Link>
                 </div>
